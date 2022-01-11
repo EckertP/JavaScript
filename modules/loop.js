@@ -1,3 +1,11 @@
+/* 
+
+    @STATUS: Simple Loop threw a Count of Numbers and Print a Text (String) to the Console
+    @INFO: Simple LoopJS, Mostly needed to Motify to your OWN.
+
+*/
+
+
 function loop(count, text) {
     if(!text || !count) 
         throw new Error(`${!text ? 'Text is undefined': 'Text is defined'}, ${!count ? 'Count is undefined': 'Count is defined'} `)

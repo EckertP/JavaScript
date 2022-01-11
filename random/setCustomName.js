@@ -1,3 +1,9 @@
+/* 
+
+	@INFO: 
+
+*/
+
 function setCustomName() {
 	var url = new URL(window.location)
 	var name = url.searchParams.get("name")
